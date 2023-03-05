@@ -34,3 +34,7 @@ Content-Type: application/json
   "phone": "432432",
   "validDays": 365
 }
+
+### 查询某个课程的课程计划
+GET {{content_host}}/content/teachplan/117/tree-nodes
+Content-Type: application/json
